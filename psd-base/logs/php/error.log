@@ -1,0 +1,50 @@
+[13-Jul-2021 16:38:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function enqueue_styles() on null in /Users/darshanathamara/Local Sites/psd-base/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:384
+Stack trace:
+#0 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php(292): Header_Footer_Elementor->enqueue_scripts('')
+#1 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6  in /Users/darshanathamara/Local Sites/psd-base/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 384
+[13-Jul-2021 16:38:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function enqueue_styles() on null in /Users/darshanathamara/Local Sites/psd-base/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php:384
+Stack trace:
+#0 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php(292): Header_Footer_Elementor->enqueue_scripts('')
+#1 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-customize-manager.php(454): wp_enqueue_scripts()
+#5 /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-customize-manager.php(551): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6  in /Users/darshanathamara/Local Sites/psd-base/app/public/wp-content/plugins/header-footer-elementor/inc/class-header-footer-elementor.php on line 384
+[05-Oct-2021 16:04:42 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/update.php on line 175
+[05-Oct-2021 16:04:42 UTC] PHP Stack trace:
+[05-Oct-2021 16:04:42 UTC] PHP   1. {main}() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-cron.php:0
+[05-Oct-2021 16:04:42 UTC] PHP   2. do_action_ref_array() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-cron.php:138
+[05-Oct-2021 16:04:42 UTC] PHP   3. WP_Hook->do_action() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/plugin.php:518
+[05-Oct-2021 16:04:42 UTC] PHP   4. WP_Hook->apply_filters() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php:327
+[05-Oct-2021 16:04:42 UTC] PHP   5. wp_version_check() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php:303
+[05-Oct-2021 16:04:42 UTC] PHP   6. trigger_error() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/update.php:175
+[18-May-2022 06:19:10 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/update.php on line 175
+[18-May-2022 06:19:10 UTC] PHP Stack trace:
+[18-May-2022 06:19:10 UTC] PHP   1. {main}() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-cron.php:0
+[18-May-2022 06:19:10 UTC] PHP   2. do_action_ref_array() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-cron.php:138
+[18-May-2022 06:19:10 UTC] PHP   3. WP_Hook->do_action() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/plugin.php:518
+[18-May-2022 06:19:10 UTC] PHP   4. WP_Hook->apply_filters() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php:327
+[18-May-2022 06:19:10 UTC] PHP   5. wp_version_check() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php:303
+[18-May-2022 06:19:10 UTC] PHP   6. trigger_error() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/update.php:175
+[18-May-2022 06:19:24 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/update.php on line 413
+[18-May-2022 06:19:24 UTC] PHP Stack trace:
+[18-May-2022 06:19:24 UTC] PHP   1. {main}() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-cron.php:0
+[18-May-2022 06:19:24 UTC] PHP   2. do_action_ref_array() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-cron.php:138
+[18-May-2022 06:19:24 UTC] PHP   3. WP_Hook->do_action() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/plugin.php:518
+[18-May-2022 06:19:24 UTC] PHP   4. WP_Hook->apply_filters() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php:327
+[18-May-2022 06:19:24 UTC] PHP   5. wp_update_plugins() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php:303
+[18-May-2022 06:19:24 UTC] PHP   6. trigger_error() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/update.php:413
+[18-May-2022 06:19:44 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/update.php on line 693
+[18-May-2022 06:19:44 UTC] PHP Stack trace:
+[18-May-2022 06:19:44 UTC] PHP   1. {main}() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-cron.php:0
+[18-May-2022 06:19:44 UTC] PHP   2. do_action_ref_array() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-cron.php:138
+[18-May-2022 06:19:44 UTC] PHP   3. WP_Hook->do_action() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/plugin.php:518
+[18-May-2022 06:19:44 UTC] PHP   4. WP_Hook->apply_filters() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php:327
+[18-May-2022 06:19:44 UTC] PHP   5. wp_update_themes() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/class-wp-hook.php:303
+[18-May-2022 06:19:44 UTC] PHP   6. trigger_error() /Users/darshanathamara/Local Sites/psd-base/app/public/wp-includes/update.php:693

@@ -1,0 +1,466 @@
+0000.000 (0) Opened log file at time: Wed, 14 Jul 2021 15:37:50 +0000 on http://psd-base.local
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.56 WP: 5.7.2 PHP: 7.3.5 (fpm-fcgi, Darwin Darshanas-MacBook-Pro.local 20.3.0 Darwin Kernel Version 20.3.0: Thu Jan 21 00:06:51 PST 2021; root:xnu-7195.81.3~1/RELEASE_ARM64_T8101 x86_64) MySQL: 8.0.16 WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.7M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 17899.2 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: daily)
+0000.006 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.008 (0) Set semaphore last lock (fd) time to 2021-07-14 15:37:50
+0000.009 (0) Semaphore lock (fd) complete
+0000.013 (0) Backup run: resumption=0, nonce=bc179e5cf699, file_nonce=bc179e5cf699 begun at=1626277070 (0s ago), job type=backup
+0000.014 (0) Scheduling a resumption (1) after 301 seconds (1626277371) in case this run gets aborted
+0000.022 (0) Checking if we have a zip executable available
+0000.023 (0) Testing: /usr/bin/zip
+0000.038 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.039 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.040 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.041 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.041 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.059 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.060 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.062 (0) Working binary zip found: /usr/bin/zip
+0000.064 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.065 (0) Creation of backups of directories: beginning
+0000.067 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.357 (0) Total entities for the zip file: 1152 directories, 5832 files (0 skipped as non-modified), 75.8 MB
+0000.363 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.366 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.369 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.372 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.376 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.379 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.383 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.386 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.389 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.392 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.393 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (10.1 MB, 5832 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.744 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: size is now: 3.20 MB
+0000.749 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1100 files added (on-disk size: 3279.9 KB)
+0000.752 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1200 files added (on-disk size: 3279.9 KB)
+0000.756 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1300 files added (on-disk size: 3279.9 KB)
+0000.759 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1400 files added (on-disk size: 3279.9 KB)
+0000.762 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1500 files added (on-disk size: 3279.9 KB)
+0000.765 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1600 files added (on-disk size: 3279.9 KB)
+0000.769 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1700 files added (on-disk size: 3279.9 KB)
+0000.772 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1800 files added (on-disk size: 3279.9 KB)
+0000.775 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 1900 files added (on-disk size: 3279.9 KB)
+0000.779 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2000 files added (on-disk size: 3279.9 KB)
+0000.779 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.3 MB, 5832 files batched, 1001 (2002) added so far); re-opening (prior size: 3279.9 KB)
+0001.026 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: size is now: 5.20 MB
+0001.031 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2100 files added (on-disk size: 5344 KB)
+0001.034 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2200 files added (on-disk size: 5344 KB)
+0001.037 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2300 files added (on-disk size: 5344 KB)
+0001.041 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2400 files added (on-disk size: 5344 KB)
+0001.044 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2500 files added (on-disk size: 5344 KB)
+0001.047 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2600 files added (on-disk size: 5344 KB)
+0001.051 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2700 files added (on-disk size: 5344 KB)
+0001.054 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2800 files added (on-disk size: 5344 KB)
+0001.057 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 2900 files added (on-disk size: 5344 KB)
+0001.061 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3000 files added (on-disk size: 5344 KB)
+0001.061 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.2 MB, 5832 files batched, 1001 (3003) added so far); re-opening (prior size: 5344 KB)
+0001.313 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: size is now: 7.80 MB
+0001.318 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3100 files added (on-disk size: 8030.7 KB)
+0001.322 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3200 files added (on-disk size: 8030.7 KB)
+0001.325 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3300 files added (on-disk size: 8030.7 KB)
+0001.328 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3400 files added (on-disk size: 8030.7 KB)
+0001.332 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3500 files added (on-disk size: 8030.7 KB)
+0001.335 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3600 files added (on-disk size: 8030.7 KB)
+0001.338 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3700 files added (on-disk size: 8030.7 KB)
+0001.341 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3800 files added (on-disk size: 8030.7 KB)
+0001.345 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 3900 files added (on-disk size: 8030.7 KB)
+0001.348 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4000 files added (on-disk size: 8030.7 KB)
+0001.349 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.7 MB, 5832 files batched, 1001 (4004) added so far); re-opening (prior size: 8030.7 KB)
+0001.647 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: size is now: 10.30 MB
+0001.651 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4100 files added (on-disk size: 10552.7 KB)
+0001.655 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4200 files added (on-disk size: 10552.7 KB)
+0001.658 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4300 files added (on-disk size: 10552.7 KB)
+0001.662 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4400 files added (on-disk size: 10552.7 KB)
+0001.665 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4500 files added (on-disk size: 10552.7 KB)
+0001.669 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4600 files added (on-disk size: 10552.7 KB)
+0001.670 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 5832 files batched, 607 (4611) added so far); re-opening (prior size: 10552.7 KB)
+0002.395 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: size is now: 17.20 MB
+0002.397 (0) A useful amount of data was added after this amount of zip processing: 0.9 s (normalised: 0.9 s, rate: 29174.1 KB/s)
+0002.399 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.87791705131531, normalised_time=0.8774900287515, max_time=2.3979849815369, data points known=1, old_max_bytes=26214400, new_max_bytes=179245797)
+0002.403 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4700 files added (on-disk size: 17565.3 KB)
+0002.406 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4800 files added (on-disk size: 17565.3 KB)
+0002.409 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 4900 files added (on-disk size: 17565.3 KB)
+0002.413 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 5000 files added (on-disk size: 17565.3 KB)
+0002.416 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 5100 files added (on-disk size: 17565.3 KB)
+0002.419 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 5200 files added (on-disk size: 17565.3 KB)
+0002.422 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 5300 files added (on-disk size: 17565.3 KB)
+0002.426 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 5400 files added (on-disk size: 17565.3 KB)
+0002.429 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 5500 files added (on-disk size: 17565.3 KB)
+0002.432 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 5600 files added (on-disk size: 17565.3 KB)
+0002.433 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.8 MB, 5832 files batched, 1001 (5612) added so far); re-opening (prior size: 17565.3 KB)
+0003.074 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: size is now: 22.20 MB
+0003.080 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 5700 files added (on-disk size: 22740.1 KB)
+0003.083 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip.tmp: 5800 files added (on-disk size: 22740.1 KB)
+0003.429 (0) Created plugins zip (0) - 23610.2 KB in 3.4 s (7025 KB/s) (sha1: 109721ecaa56ae38de1967a630d7b6588291ca20, sha256: e121899a55fd44714cf766446e293e2eb1c13bc528cef5782fc77ef760310fd3)
+0003.432 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.488 (0) Total entities for the zip file: 284 directories, 622 files (0 skipped as non-modified), 19.8 MB
+0003.492 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0003.496 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0003.499 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0003.502 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0003.506 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0003.509 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0004.208 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip.tmp: size is now: 5.40 MB
+0004.262 (0) Created themes zip (0) - 5574.5 KB in 0.8 s (6722.6 KB/s) (sha1: 56b0827f3206cd806705c358bb2cef4a7b22df3e, sha256: ecffddd91ca89ff2b0ad1d4bb280026f9715bafbc77395de78a44ffffe7b749d)
+0004.265 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.266 (0) Looking for candidates to backup in: /Users/darshanathamara/Local Sites/psd-base/app/public/wp-content/uploads
+0004.267 (0) finding files: wpcf7_uploads: adding to list (1)
+0004.267 (0) finding files: elementor: adding to list (2)
+0004.268 (0) finding files: 2019: adding to list (3)
+0004.269 (0) finding files: 2021: adding to list (4)
+0004.269 (0) finding files: 2020: adding to list (5)
+0004.270 (0) finding files: 2018: adding to list (6)
+0004.271 (0) finding files: wc-logs: adding to list (7)
+0004.272 (0) finding files: astra-sites: adding to list (8)
+0004.273 (0) finding files: woocommerce_uploads: adding to list (9)
+0004.273 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.300 (0) Total entities for the zip file: 19 directories, 413 files (0 skipped as non-modified), 56.8 MB
+0004.304 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.307 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.310 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.313 (0) Zip: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.638 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip.tmp: size is now: 56.80 MB
+0005.162 (0) Created uploads zip (0) - 58113.5 KB in 0.9 s (65512.3 KB/s) (sha1: 7bcbcac14395f94cd3bf851e28826611a6e820ad, sha256: 4fb5e7476139b349d01b994d6cf89ef2a51ebc8e91eeee09de911587ef8e11ab)
+0005.164 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.165 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.166 (0) Looking for candidates to backup in: /Users/darshanathamara/Local Sites/psd-base/app/public/wp-content
+0005.167 (0) finding files: upgrade: skipping: excluded by options
+0005.168 (0) finding files: index.php: adding to list (1)
+0005.168 (0) finding files: plugins: skipping: this is the plugins directory
+0005.169 (0) finding files: uploads: skipping: this is the uploads directory
+0005.170 (0) finding files: updraft: skipping: this is the updraft directory
+0005.170 (0) finding files: themes: skipping: this is the themes directory
+0005.173 (0) Total entities for the zip file: 0 directories, 1 files (0 skipped as non-modified), 0 MB
+0005.190 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-others.zip.tmp: size is now: 0.00 MB
+0005.194 (0) Created others zip (0) - 0.2 KB in 0 s (8.5 KB/s) (sha1: b3d27a1acff1292572742ea549d80bc61531bc9b, sha256: 9c996a4ee232e2b34c97650fb04c1813b2b935f723daed0e0d7615633a9cefba)
+0005.198 (0) Saving backup status to database (elements: 8)
+0005.200 (0) Beginning creation of database dump (WordPress DB)
+0005.201 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0005.229 (0) Table wp_options: Total expected rows (approximate): 565
+0005.336 (0) Table wp_options: Rows added in this batch (next record: 1947): 572 (uncompressed bytes in this segment=5479490) in 0.11 seconds
+0005.340 (0) Table wp_options: finishing file(s) (2, 546.9 KB)
+0005.342 (0) Table wp_users: Total expected rows (approximate): 0
+0005.345 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1393) in 0.00 seconds
+0005.348 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0005.350 (0) Table wp_usermeta: Total expected rows (approximate): 58
+0005.353 (0) Table wp_usermeta: Rows added in this batch (next record: 70): 59 (uncompressed bytes in this segment=5911) in 0.00 seconds
+0005.356 (0) Table wp_usermeta: finishing file(s) (2, 2.4 KB)
+0005.358 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 24
+0005.362 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 29): 24 (uncompressed bytes in this segment=8872) in 0.00 seconds
+0005.364 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.3 KB)
+0005.366 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0005.368 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0005.371 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0005.374 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0005.378 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=751) in 0.00 seconds
+0005.381 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0005.383 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 66
+0005.388 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 72): 72 (uncompressed bytes in this segment=6869) in 0.00 seconds
+0005.391 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.2 KB)
+0005.393 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0005.395 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0005.397 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0005.399 (0) Table wp_comments: Total expected rows (approximate): 3
+0005.401 (0) Table wp_comments: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2958) in 0.00 seconds
+0005.404 (0) Table wp_comments: finishing file(s) (2, 0.9 KB)
+0005.406 (0) Table wp_links: Total expected rows (approximate): 0
+0005.409 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0005.412 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0005.414 (0) Table wp_postmeta: Total expected rows (approximate): 3885
+0005.615 (0) Table wp_postmeta: Rows added in this batch (next record: 4296): 3408 (uncompressed bytes in this segment=9664833) in 0.20 seconds
+0005.619 (0) Table wp_postmeta: finishing file(s) (2, 598.6 KB)
+0005.621 (0) Table wp_posts: Total expected rows (approximate): 472
+0005.703 (0) Table wp_posts: Rows added in this batch (next record: 4709): 468 (uncompressed bytes in this segment=2675790) in 0.08 seconds
+0005.707 (0) Table wp_posts: finishing file(s) (2, 71.2 KB)
+0005.709 (0) Table wp_term_relationships: Total expected rows (approximate): 74
+0005.712 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 78 (uncompressed bytes in this segment=1864) in 0.00 seconds
+0005.715 (0) Table wp_term_relationships: finishing file(s) (2, 0.6 KB)
+0005.717 (0) Table wp_term_taxonomy: Total expected rows (approximate): 27
+0005.720 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 32): 30 (uncompressed bytes in this segment=2092) in 0.00 seconds
+0005.722 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0005.725 (0) Table wp_termmeta: Total expected rows (approximate): 18
+0005.727 (0) Table wp_termmeta: Rows added in this batch (next record: 24): 18 (uncompressed bytes in this segment=1379) in 0.00 seconds
+0005.730 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0005.732 (0) Table wp_terms: Total expected rows (approximate): 30
+0005.734 (0) Table wp_terms: Rows added in this batch (next record: 32): 30 (uncompressed bytes in this segment=1781) in 0.00 seconds
+0005.737 (0) Table wp_terms: finishing file(s) (2, 0.8 KB)
+0005.740 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 4
+0005.743 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=622) in 0.00 seconds
+0005.745 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0005.747 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 7
+0005.752 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 4316): 8 (uncompressed bytes in this segment=2112) in 0.00 seconds
+0005.754 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.6 KB)
+0005.756 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0005.759 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=665) in 0.00 seconds
+0005.761 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0005.763 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0005.765 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=832) in 0.00 seconds
+0005.768 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0005.770 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 27
+0005.772 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=1795) in 0.00 seconds
+0005.775 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.6 KB)
+0005.777 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0005.780 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.00 seconds
+0005.782 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0005.784 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 39
+0005.788 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1389): 39 (uncompressed bytes in this segment=7540) in 0.00 seconds
+0005.791 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 2 KB)
+0005.793 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 32
+0005.797 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 39): 39 (uncompressed bytes in this segment=19163) in 0.00 seconds
+0005.800 (0) Table wp_wc_admin_notes: finishing file(s) (2, 5.2 KB)
+0005.802 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 0
+0005.805 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1447) in 0.00 seconds
+0005.807 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.6 KB)
+0005.809 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0005.813 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=926) in 0.00 seconds
+0005.816 (0) Table wp_wc_download_log: finishing file(s) (2, 0.5 KB)
+0005.818 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0005.820 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=717) in 0.00 seconds
+0005.822 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0005.824 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 2
+0005.827 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1515) in 0.00 seconds
+0005.829 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.6 KB)
+0005.831 (0) Table wp_wc_order_stats: Total expected rows (approximate): 3
+0005.834 (0) Table wp_wc_order_stats: Rows added in this batch (next record: 4685): 3 (uncompressed bytes in this segment=1470) in 0.00 seconds
+0005.836 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.6 KB)
+0005.838 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0005.841 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.00 seconds
+0005.843 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0005.845 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0005.848 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.00 seconds
+0005.851 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0005.853 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0005.855 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1046) in 0.00 seconds
+0005.858 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.5 KB)
+0005.860 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0005.862 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=961) in 0.00 seconds
+0005.865 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0005.867 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0005.870 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1538) in 0.00 seconds
+0005.873 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0005.875 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0005.877 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.00 seconds
+0005.880 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0005.882 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 2
+0005.884 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=909) in 0.00 seconds
+0005.886 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0005.888 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0005.891 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.00 seconds
+0005.893 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0005.895 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 19
+0005.898 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 54): 20 (uncompressed bytes in this segment=26397) in 0.00 seconds
+0005.900 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 2.1 KB)
+0005.902 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0005.905 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.00 seconds
+0005.907 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0005.909 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0005.911 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.00 seconds
+0005.914 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0005.916 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0005.917 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.00 seconds
+0005.920 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0005.922 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0005.924 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.00 seconds
+0005.926 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0005.928 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0005.930 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1417) in 0.00 seconds
+0005.933 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0005.934 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_options.table.tmpr1948.gz (1/43): adding to final database dump
+0006.014 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_options.table.gz (2/43): adding to final database dump
+0006.016 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_users.table.tmpr2.gz (3/43): adding to final database dump
+0006.016 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_users.table.gz (4/43): adding to final database dump
+0006.017 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_usermeta.table.tmpr71.gz (5/43): adding to final database dump
+0006.018 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_usermeta.table.gz (6/43): adding to final database dump
+0006.019 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_actionscheduler_actions.table.tmpr30.gz (7/43): adding to final database dump
+0006.020 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_actionscheduler_actions.table.gz (8/43): adding to final database dump
+0006.021 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/43): adding to final database dump
+0006.021 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_actionscheduler_claims.table.gz (10/43): adding to final database dump
+0006.022 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/43): adding to final database dump
+0006.023 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_actionscheduler_groups.table.gz (12/43): adding to final database dump
+0006.023 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_actionscheduler_logs.table.tmpr73.gz (13/43): adding to final database dump
+0006.025 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_actionscheduler_logs.table.gz (14/43): adding to final database dump
+0006.025 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_commentmeta.table.tmpr0.gz (15/43): adding to final database dump
+0006.026 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_commentmeta.table.gz (16/43): adding to final database dump
+0006.027 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_comments.table.tmpr5.gz (17/43): adding to final database dump
+0006.027 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_comments.table.gz (18/43): adding to final database dump
+0006.028 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_links.table.tmpr0.gz (19/43): adding to final database dump
+0006.029 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_links.table.gz (20/43): adding to final database dump
+0006.030 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_postmeta.table.tmpr4297.gz (21/43): adding to final database dump
+0006.135 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_postmeta.table.gz (22/43): adding to final database dump
+0006.136 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_posts.table.tmpr4710.gz (23/43): adding to final database dump
+0006.156 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_posts.table.gz (24/43): adding to final database dump
+0006.157 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_term_relationships.table.tmpr100001.gz (25/43): adding to final database dump
+0006.158 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_term_relationships.table.gz (26/43): adding to final database dump
+0006.159 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_term_taxonomy.table.tmpr33.gz (27/43): adding to final database dump
+0006.160 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_term_taxonomy.table.gz (28/43): adding to final database dump
+0006.160 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_termmeta.table.tmpr25.gz (29/43): adding to final database dump
+0006.161 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_termmeta.table.gz (30/43): adding to final database dump
+0006.162 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_terms.table.tmpr33.gz (31/43): adding to final database dump
+0006.162 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_terms.table.gz (32/43): adding to final database dump
+0006.163 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/43): adding to final database dump
+0006.164 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_category_lookup.table.gz (34/43): adding to final database dump
+0006.165 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_product_meta_lookup.table.tmpr4317.gz (35/43): adding to final database dump
+0006.166 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_product_meta_lookup.table.gz (36/43): adding to final database dump
+0006.166 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/43): adding to final database dump
+0006.167 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_reserved_stock.table.gz (38/43): adding to final database dump
+0006.168 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_tax_rate_classes.table.tmpr4.gz (39/43): adding to final database dump
+0006.168 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_tax_rate_classes.table.gz (40/43): adding to final database dump
+0006.169 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_order_itemmeta.table.tmpr28.gz (41/43): adding to final database dump
+0006.170 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_order_itemmeta.table.gz (42/43): adding to final database dump
+0006.170 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/43): adding to final database dump
+0006.171 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/43): adding to final database dump
+0006.172 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_admin_note_actions.table.tmpr1390.gz (45/43): adding to final database dump
+0006.173 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_admin_note_actions.table.gz (46/43): adding to final database dump
+0006.174 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_admin_notes.table.tmpr40.gz (47/43): adding to final database dump
+0006.175 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_admin_notes.table.gz (48/43): adding to final database dump
+0006.176 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_customer_lookup.table.tmpr2.gz (49/43): adding to final database dump
+0006.177 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_customer_lookup.table.gz (50/43): adding to final database dump
+0006.177 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_download_log.table.tmpr0.gz (51/43): adding to final database dump
+0006.178 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_download_log.table.gz (52/43): adding to final database dump
+0006.179 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (53/43): adding to final database dump
+0006.179 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_order_coupon_lookup.table.gz (54/43): adding to final database dump
+0006.180 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_order_product_lookup.table.tmpr4.gz (55/43): adding to final database dump
+0006.181 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_order_product_lookup.table.gz (56/43): adding to final database dump
+0006.181 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_order_stats.table.tmpr4686.gz (57/43): adding to final database dump
+0006.182 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_order_stats.table.gz (58/43): adding to final database dump
+0006.183 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (59/43): adding to final database dump
+0006.183 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_order_tax_lookup.table.gz (60/43): adding to final database dump
+0006.184 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_webhooks.table.tmpr0.gz (61/43): adding to final database dump
+0006.185 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_wc_webhooks.table.gz (62/43): adding to final database dump
+0006.185 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (63/43): adding to final database dump
+0006.186 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_api_keys.table.gz (64/43): adding to final database dump
+0006.187 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (65/43): adding to final database dump
+0006.187 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_attribute_taxonomies.table.gz (66/43): adding to final database dump
+0006.188 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (67/43): adding to final database dump
+0006.189 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (68/43): adding to final database dump
+0006.190 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_log.table.tmpr0.gz (69/43): adding to final database dump
+0006.190 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_log.table.gz (70/43): adding to final database dump
+0006.191 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_order_items.table.tmpr4.gz (71/43): adding to final database dump
+0006.192 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_order_items.table.gz (72/43): adding to final database dump
+0006.192 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (73/43): adding to final database dump
+0006.193 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_payment_tokens.table.gz (74/43): adding to final database dump
+0006.194 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_sessions.table.tmpr55.gz (75/43): adding to final database dump
+0006.195 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_sessions.table.gz (76/43): adding to final database dump
+0006.195 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (77/43): adding to final database dump
+0006.196 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_shipping_zone_locations.table.gz (78/43): adding to final database dump
+0006.197 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (79/43): adding to final database dump
+0006.197 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_shipping_zone_methods.table.gz (80/43): adding to final database dump
+0006.198 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (81/43): adding to final database dump
+0006.199 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_shipping_zones.table.gz (82/43): adding to final database dump
+0006.199 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (83/43): adding to final database dump
+0006.200 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_tax_rate_locations.table.gz (84/43): adding to final database dump
+0006.201 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_tax_rates.table.tmpr2.gz (85/43): adding to final database dump
+0006.201 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db-table-wp_woocommerce_tax_rates.table.gz (86/43): adding to final database dump
+0006.207 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db.gz: finished writing out complete database file (1224 KB)
+0006.224 (0) Total database tables backed up: 43 (backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db.gz, size: 1264638, sha1: 4ee4f3bf7f4c1e386dfac8a300886c41b28873b3, sha256: 8244fad009d7f4d928b7208cadbdd7bf8aee1d9f1a27f03f13b5b62b15cfc701)
+0006.228 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.229 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.230 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.230 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.231 (0) backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.232 (0) Saving backup history. Total backup size: 86.5 MB
+0006.234 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.236 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0006.237 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-2c67cd170d3e15948d674f2132a748c1)
+0015.582 (0) Google Drive: quota usage: used=396.3 MB, total=15360 MB, available=14963.7 MB
+0015.587 (0) Google Drive: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip: Attempting to upload to Google Drive (into folder id: 1B2YF_m2zOggL_OsFexvsBdNSohHTOkx2)
+0017.971 (0) Googledrive chunked upload: 4.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 13.9 / 14)
+0023.804 (0) Googledrive chunked upload: 13 % uploaded (3145728)
+0027.255 (0) Googledrive chunked upload: 21.7 % uploaded (5242880)
+0030.276 (0) Googledrive chunked upload: 30.4 % uploaded (7340032)
+0035.414 (0) Googledrive chunked upload: 39 % uploaded (9437184)
+0038.596 (0) Googledrive chunked upload: 47.7 % uploaded (11534336)
+0042.469 (0) Googledrive chunked upload: 56.4 % uploaded (13631488)
+0046.689 (0) Googledrive chunked upload: 65.1 % uploaded (15728640)
+0050.114 (0) Googledrive chunked upload: 73.7 % uploaded (17825792)
+0054.438 (0) Googledrive chunked upload: 82.4 % uploaded (19922944)
+0058.306 (0) Googledrive chunked upload: 91.1 % uploaded (22020096)
+0061.210 (0) Googledrive chunked upload: 99.8 % uploaded (24117248)
+0064.415 (0) Googledrive chunked upload: 100 % uploaded (24117248)
+0064.424 (0) Google Drive: OK: Archive backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip uploaded in 48.83 seconds
+0064.427 (0) Recording as successfully uploaded: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip
+0064.433 (0) Deleting local file: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-plugins.zip: OK
+0066.015 (0) Google Drive: quota usage: used=419.3 MB, total=15360 MB, available=14940.7 MB
+0066.020 (0) Google Drive: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip: Attempting to upload to Google Drive (into folder id: 1B2YF_m2zOggL_OsFexvsBdNSohHTOkx2)
+0076.263 (0) Googledrive chunked upload: 18.4 % uploaded (1048576)
+0077.747 (0) Googledrive chunked upload: 36.7 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 13.9 / 14)
+0083.027 (0) Googledrive chunked upload: 73.5 % uploaded (4194304)
+0085.749 (0) Googledrive chunked upload: 100 % uploaded (4194304)
+0085.758 (0) Google Drive: OK: Archive backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip uploaded in 19.73 seconds
+0085.760 (0) Recording as successfully uploaded: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip
+0085.766 (0) Deleting local file: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-themes.zip: OK
+0086.550 (0) Google Drive: quota usage: used=424.8 MB, total=15360 MB, available=14935.2 MB
+0086.555 (0) Google Drive: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip: Attempting to upload to Google Drive (into folder id: 1B2YF_m2zOggL_OsFexvsBdNSohHTOkx2)
+0088.845 (0) Googledrive chunked upload: 1.8 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 13.9 / 14)
+0091.973 (0) Googledrive chunked upload: 5.3 % uploaded (3145728)
+0096.203 (0) Googledrive chunked upload: 8.8 % uploaded (5242880)
+0101.360 (0) Googledrive chunked upload: 12.3 % uploaded (7340032)
+0104.334 (0) Googledrive chunked upload: 15.9 % uploaded (9437184)
+0107.525 (0) Googledrive chunked upload: 19.4 % uploaded (11534336)
+0110.834 (0) Googledrive chunked upload: 22.9 % uploaded (13631488)
+0116.366 (0) Googledrive chunked upload: 26.4 % uploaded (15728640)
+0119.216 (0) Googledrive chunked upload: 30 % uploaded (17825792)
+0122.331 (0) Googledrive chunked upload: 33.5 % uploaded (19922944)
+0125.445 (0) Googledrive chunked upload: 37 % uploaded (22020096)
+0128.206 (0) Googledrive chunked upload: 40.5 % uploaded (24117248)
+0130.357 (0) Googledrive chunked upload: 44.1 % uploaded (26214400 - increasing chunk size to 4096 KB - memory usage: 13.9 / 14)
+0137.839 (0) Googledrive chunked upload: 51.1 % uploaded (30408704)
+0144.642 (0) Googledrive chunked upload: 58.1 % uploaded (34603008)
+0149.252 (0) Googledrive chunked upload: 65.2 % uploaded (38797312)
+0159.994 (0) Googledrive chunked upload: 72.2 % uploaded (42991616)
+0166.899 (0) Googledrive chunked upload: 79.3 % uploaded (47185920)
+0172.295 (0) Googledrive chunked upload: 86.3 % uploaded (51380224)
+0183.548 (0) Googledrive chunked upload: 93.4 % uploaded (55574528)
+0191.921 (0) Googledrive chunked upload: 100 % uploaded (55574528)
+0191.930 (0) Google Drive: OK: Archive backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip uploaded in 105.37 seconds
+0191.932 (0) Recording as successfully uploaded: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip
+0191.940 (0) Deleting local file: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-uploads.zip: OK
+0192.734 (0) Google Drive: quota usage: used=481.5 MB, total=15360 MB, available=14878.5 MB
+0192.738 (0) Google Drive: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-others.zip: Attempting to upload to Google Drive (into folder id: 1B2YF_m2zOggL_OsFexvsBdNSohHTOkx2)
+0195.405 (0) Googledrive chunked upload: 100 % uploaded
+0195.413 (0) Google Drive: OK: Archive backup_2021-07-14-1537_PSD_Base_bc179e5cf699-others.zip uploaded in 2.67 seconds
+0195.415 (0) Recording as successfully uploaded: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-others.zip
+0195.419 (0) Deleting local file: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-others.zip: OK
+0196.123 (0) Google Drive: quota usage: used=481.5 MB, total=15360 MB, available=14878.5 MB
+0196.128 (0) Google Drive: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db.gz: Attempting to upload to Google Drive (into folder id: 1B2YF_m2zOggL_OsFexvsBdNSohHTOkx2)
+0198.422 (0) Googledrive chunked upload: 82.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 13.9 / 14)
+0200.231 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0200.239 (0) Google Drive: OK: Archive backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db.gz uploaded in 4.11 seconds
+0200.241 (0) Recording as successfully uploaded: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db.gz
+0200.246 (0) Deleting local file: backup_2021-07-14-1537_PSD_Base_bc179e5cf699-db.gz: OK
+0200.252 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=5
+0200.255 (0) Number of backup sets in history: 3; groups (db): 1
+0200.256 (0) Examining (for databases) backup set with group_id=0, nonce=bc179e5cf699, datestamp=1626277070 (Jul 14 2021 15:37:50)
+0200.258 (0) This backup set is the backup set just made, so will not be deleted.
+0200.258 (0) Examining (for databases) backup set with group_id=0, nonce=1522f53f3b5a, datestamp=1626195226 (Jul 13 2021 16:53:46)
+0200.258 (0) This backup set (1626195226) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0200.258 (0) Examining (for databases) backup set with group_id=0, nonce=543865373ced, datestamp=1626120334 (Jul 12 2021 20:05:34)
+0200.258 (0) This backup set (1626120334) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0200.258 (0) Number of backup sets in history: 3; groups (files): 1
+0200.260 (0) Examining (for files) backup set with nonce=bc179e5cf699, datestamp=1626277070 (Jul 14 2021 15:37:50)
+0200.260 (0) This backup set is the backup set just made, so will not be deleted.
+0200.262 (0) This backup set is the backup set just made, so will not be deleted.
+0200.262 (0) This backup set is the backup set just made, so will not be deleted.
+0200.263 (0) This backup set is the backup set just made, so will not be deleted.
+0200.263 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0200.264 (0) Examining (for files) backup set with nonce=1522f53f3b5a, datestamp=1626195226 (Jul 13 2021 16:53:46)
+0200.264 (0) This backup set (1626195226) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0200.264 (0) This backup set (1626195226) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0200.265 (0) This backup set (1626195226) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0200.265 (0) This backup set (1626195226) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0200.265 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0200.265 (0) Examining (for files) backup set with nonce=543865373ced, datestamp=1626120334 (Jul 12 2021 20:05:34)
+0200.265 (0) This backup set (1626120334) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0200.265 (0) This backup set (1626120334) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0200.265 (0) This backup set (1626120334) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0200.265 (0) This backup set (1626120334) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0200.265 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0200.266 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0200.270 (0) Resume backup (bc179e5cf699, 0): finish run
+0200.273 (0) Decremented the semaphore (fd) by 1
+0200.274 (0) Semaphore (fd) unlocked
+0200.275 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0200.279 (0) No email will/can be sent - the user has not configured an email address.
+0200.280 (0) The backup apparently succeeded and is now complete
